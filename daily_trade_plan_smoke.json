@@ -1,0 +1,133 @@
+{
+  "config": {
+    "tickers": [
+      "SPY",
+      "NVDA",
+      "META",
+      "MSFT",
+      "AMZN"
+    ],
+    "ltf": "30m",
+    "htf": "60m",
+    "lookback": 60,
+    "risk_weights": "vol_inverse",
+    "cash_buffer": 0.1,
+    "max_gross": 1.5,
+    "max_net": 0.6,
+    "corr_penalty": 0.5
+  },
+  "portfolio_summary": {
+    "gross_exposure": 0.0,
+    "net_exposure": 0.0,
+    "n_longs": 0,
+    "n_shorts": 0,
+    "n_flats": 5
+  },
+  "symbols": {
+    "SPY": {
+      "timestamp": "2026-02-27 18:00:00+00:00",
+      "close": 683.5098266601562,
+      "score": -0.37079550316786214,
+      "target_pos": 0,
+      "side": "flat",
+      "action": "stay_flat_or_exit",
+      "risk_weight": 0.3519772161013311,
+      "size_raw": 0.3235370869614522,
+      "raw_exposure": 0.0,
+      "atr_pct": 0.0030908357659755552,
+      "adx": 28.93106028234722,
+      "htf_bull": false,
+      "htf_bear": true,
+      "stops": {
+        "stop": null,
+        "take_profit": null,
+        "trail_hint": null
+      },
+      "adj_exposure": 0.0
+    },
+    "NVDA": {
+      "timestamp": "2026-02-27 18:00:00+00:00",
+      "close": 178.89010620117188,
+      "score": -0.3008484677047919,
+      "target_pos": 0,
+      "side": "flat",
+      "action": "stay_flat_or_exit",
+      "risk_weight": 0.14363707341052828,
+      "size_raw": 0.10774948181348658,
+      "raw_exposure": 0.0,
+      "atr_pct": 0.009280787092145755,
+      "adx": 48.40303567317639,
+      "htf_bull": false,
+      "htf_bear": false,
+      "stops": {
+        "stop": null,
+        "take_profit": null,
+        "trail_hint": null
+      },
+      "adj_exposure": 0.0
+    },
+    "META": {
+      "timestamp": "2026-02-27 18:00:00+00:00",
+      "close": 638.9500122070312,
+      "score": -0.29189590466426363,
+      "target_pos": 0,
+      "side": "flat",
+      "action": "stay_flat_or_exit",
+      "risk_weight": 0.15365745402206407,
+      "size_raw": 0.16275486147421062,
+      "raw_exposure": 0.0,
+      "atr_pct": 0.00614420970865104,
+      "adx": 36.102798372634346,
+      "htf_bull": false,
+      "htf_bear": true,
+      "stops": {
+        "stop": null,
+        "take_profit": null,
+        "trail_hint": null
+      },
+      "adj_exposure": 0.0
+    },
+    "MSFT": {
+      "timestamp": "2026-02-27 18:00:00+00:00",
+      "close": 393.8599853515625,
+      "score": -0.1965209493306411,
+      "target_pos": 0,
+      "side": "flat",
+      "action": "stay_flat_or_exit",
+      "risk_weight": 0.17884574123162464,
+      "size_raw": 0.15327181540179602,
+      "raw_exposure": 0.0,
+      "atr_pct": 0.0065243567278076495,
+      "adx": 32.211989970100134,
+      "htf_bull": false,
+      "htf_bear": true,
+      "stops": {
+        "stop": null,
+        "take_profit": null,
+        "trail_hint": null
+      },
+      "adj_exposure": 0.0
+    },
+    "AMZN": {
+      "timestamp": "2026-02-27 18:00:00+00:00",
+      "close": 207.89990234375,
+      "score": 0.08300575986900505,
+      "target_pos": 0,
+      "side": "flat",
+      "action": "stay_flat_or_exit",
+      "risk_weight": 0.17188251523445186,
+      "size_raw": 0.1583888254387401,
+      "raw_exposure": 0.0,
+      "atr_pct": 0.006313576713697956,
+      "adx": 13.423427892340175,
+      "htf_bull": false,
+      "htf_bear": true,
+      "stops": {
+        "stop": null,
+        "take_profit": null,
+        "trail_hint": null
+      },
+      "adj_exposure": 0.0
+    }
+  }
+}
